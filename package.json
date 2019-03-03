@@ -37,7 +37,7 @@
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "npm run tests-only",
-    "tests-only": "immunity package/*.js"
+    "tests-only": "tap src/*.js"
   },
   "testling": {
     "files": "test/browser/*.js",
