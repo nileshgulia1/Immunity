@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "rules": {
+    "indent": ["error", 2],
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ]
+  }
+}
