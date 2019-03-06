@@ -1,4 +1,4 @@
-const { argue, does } = require("immunity");
+const { argue, does } = require("immunite");
 const stringCheck = require("../src/example2");
 
 does("it check if the string starts with given string", () => {
