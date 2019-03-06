@@ -1,5 +1,5 @@
 {
-  "name": "immunity",
+  "name": "immunite",
   "version": "0.1.0",
   "description": "Delightfull JS testing :sparkles: :wrench: :beers:",
   "main": "./src/index.js",
@@ -58,6 +58,7 @@
     "assert",
     "browser"
   ],
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nileshgulia1/Immunity.git"
