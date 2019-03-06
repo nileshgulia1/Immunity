@@ -1,8 +1,8 @@
 const colors = require("colors");
 
-const does = (title, cb) => {
+const does = (title, callback) => {
   try {
-    cb();
+    callback();
     console.log(`${"OK".bgGreen.black} ${title.green}`);
   } catch (e) {
     console.log(`${"FAIL".bgRed.black} ${title.red}`);
